@@ -1,3 +1,4 @@
+### `Hacer lo siguiente para correr la app`
 ### `npm install`
 
 Instala las dependencias de node
