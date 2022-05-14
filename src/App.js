@@ -1,5 +1,5 @@
 import './App.css';
-import Hola  from './components/Hola.js'
+import Hola  from './components/Hola'
 import Navbar from './components/Navbar';
 
 function App() {
