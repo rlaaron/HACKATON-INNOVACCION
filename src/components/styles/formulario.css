@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.formulario{
+    /* background-image: url("../img/img1.jpg"); */
+    /* background: linear-gradient(-45deg, #060e5f,#23a6d5,  #3028ca, #94f3dc);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+    height: 100vh;
+    width: 100%;
+    color: black;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 105%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
+    z-index: -2;
+  }
+.form-label{
+    
+    font-size: x-large;
+}
+.error{
+    color: red;
+    font-size: larger;
+}  
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  /* background-image: linear-gradient(-60deg, #a9d2df 50%, #02618c 50%); */
+  /* background-image: linear-gradient(-60deg, #d2e4f8 50%, #002d42 50%); */
+  /* background-image: linear-gradient(-60deg, #b4d2d3 50%, #044553 50%); */
+  /* background-image: linear-gradient(-60deg, #e6f2ee 50%, #4deaf9 50%); */
+  /* background-image: linear-gradient(-60deg, #e6f2ee 50%, #3ba7e7 50%); */
+  /* background-image: linear-gradient(-60deg, #9ce9fc 50%, #237cdd 50%); */
+  /* background-image: linear-gradient(-60deg, #9ce9fc 50%, #3da6e7 50%); */
+  background-image: linear-gradient(-60deg, #bcada3 50%, #3da6e7 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+.content {
+  /* background-color:rgba(255,255,255,.8); */
+  /* border-radius:.25em; */
+  /* box-shadow:0 0 .25em rgba(0,0,0,.25); */
+  box-sizing:border-box;
+  left:50%;
+  padding:10vmin;
+  position:fixed;
+  text-align:center;
+  top:50%;
+  transform:translate(-50%, -50%);
+}
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
+
+.exito{
+    margin-top: 10px;
+    color: purple;
+    font-size: x-large;
+    
+}
