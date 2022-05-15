@@ -1,13 +1,15 @@
 import './App.css';
-import Hola  from './components/Hola'
-import Navbar from './components/Navbar';
+import Barra from './components/Barra';
+import Foot from './components/Foot';
+import Home from './components/Home';
+
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <div className='hola'>hola</div>
-      <Hola/>
+      <Barra/>
+      <Home/>
+      <Foot/>
     </div>
   );
 }
