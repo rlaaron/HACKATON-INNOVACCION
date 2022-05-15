@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import './styles/formulario.css'
-import video from "./img/videoff.mp4";
+// import video from "./img/videoff.mp4";
 const Formulario = () => {
 	const [formularioEnviado, cambiarFormularioEnviado] = useState(false);
 	return (
 		<>
-			{/* <div class="bg"></div>
+			<div class="bg"></div>
 			<div class="bg bg2"></div>
 			<div class="bg bg3"></div>
-			<div class="content"> */}
+			<div class="content">
 			<Formik
 				initialValues={{
 					nombre: '',
@@ -54,10 +54,10 @@ const Formulario = () => {
 
 				{({ errors }) => (
 					<div className='formulario'>
-						<video src={video} autoplay="true" muted="true" loop="true" poster={video} />
+						{/* <video src={video} autoplay="true" muted="true" loop="true" poster={video} /> */}
 						<div>
 							
-					<h3>Ingrese los siguientes datos para ser voluntario</h3>
+						<h3>Ingrese los siguientes datos para ser voluntario</h3>
 					</div>
 						<Form>
 							<div class="mb-3">
@@ -111,7 +111,7 @@ const Formulario = () => {
 					</div>
 				)}
 			</Formik>
-		{/* </div> */}
+		</div>
 		</>
 	);
 }
