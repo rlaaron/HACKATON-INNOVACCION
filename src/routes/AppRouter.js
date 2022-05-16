@@ -1,7 +1,6 @@
 import { Routes, Route, BrowserRouter} from "react-router-dom";
 import App from "../App";
 import Formulario from "../components/Formulario";
-import Hola from "../components/Hola";
 import Mint from "../components/Mint";
 import { useState } from 'react';
 import Porque from "../components/Porque";
