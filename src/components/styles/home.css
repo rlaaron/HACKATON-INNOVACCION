@@ -117,11 +117,16 @@
     border: 2px solid #FEBA0B;
     background: #FEBA0B;
     font-size: larger;
+    margin-left: 10px;
   }
   .boton:hover {
     background: #fff;
     color: #FEBA0B
   }
+.links{
+    display: flex;
+    justify-content: space-between;
+}
 
 @keyframes move_vector{
     0%{

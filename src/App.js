@@ -4,6 +4,7 @@ import Foot from './components/Foot';
 import Home from './components/Home';
 import Porque from './components/Porque';
 import Como from './components/Como';
+import Mas from './components/Mas';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Home/>
       <Porque/>
       <Como/>
+      <Mas/>
       <Foot/>
     </div>
   );

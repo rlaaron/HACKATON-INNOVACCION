@@ -20,7 +20,11 @@ const Home = () => {
                                 <br/>Puedes inscribirte aqui abajo si deseas ser voluntario 😀👇️!
                             </p>
                             <br/>
-                            <a><button className='boton'>REGISTRARME</button></a>
+                            <div className='links'>
+                                <a><button className='boton'>REGISTRARME</button></a>
+                                <a href='https://rinkeby.etherscan.io/address/0xa3c3BB460fe327F6C25a12f4ECA1083DB4A5ab1D' target = '_blank' className='boton' rel="noreferrer">Etherscan</a>
+                                <a href='https://testnets.opensea.io/collection/salva-al-oceano' target = '_blank' className='boton' rel="noreferrer">OpenSea</a>
+                            </div>
                         </div>
                         <div><img src={nft} className='nft' /></div>
                     </div>

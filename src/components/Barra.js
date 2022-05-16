@@ -9,9 +9,10 @@ const Barra = () => {
                     <nav id="nav">
                         <ul>
                             <li><Link to="/Mint" class="select">Mint</Link></li>
-                            <li><a href="#">ABOUT US</a></li>
-                            <li><a href="#">HOW IT WORK</a></li>
-                            <li><a href="#">CONTACT US</a></li>
+                            <li><Link to="/Porque" class="select">¿Porque Cuidar el mar?</Link></li>
+                            <li><Link to="/Pasos" class="select">Proceso</Link></li>
+                            
+                            <li><Link to="/Mint" class="select">Mas</Link></li>
                         </ul>
                     </nav>
                     <div class="btn__menu" id="btn_menu"><i class="fas fa-bars"></i></div>
