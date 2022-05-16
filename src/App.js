@@ -1,13 +1,20 @@
 import './App.css';
-import Hola  from './components/Hola'
-import Navbar from './components/Navbar';
+import Barra from './components/Barra';
+import Foot from './components/Foot';
+import Home from './components/Home';
+import Porque from './components/Porque';
+import Como from './components/Como';
+
+
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <div className='hola'>hola</div>
-      <Hola/>
+      <Barra/>
+      <Home/>
+      <Porque/>
+      <Como/>
+      <Foot/>
     </div>
   );
 }

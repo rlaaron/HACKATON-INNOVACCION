@@ -48,7 +48,13 @@ const Formulario = () => {
 					console.log('Formulario enviado');
 					cambiarFormularioEnviado(true);
 					setTimeout(() => cambiarFormularioEnviado(false), 50000);
-					fetch('')
+					// fetch(`http://localhost:3000/product/`, {
+					// 	method: "POST",
+      				// 	headers: {
+        			// 	"Content-Type": "Application/json"
+					// },
+					// body: JSON.stringify(product.n), setProduct({ name: "", description: "", brand: "", price: "" },)
+					// )
 				}}
 			>
 
