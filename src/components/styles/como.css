@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.main_como{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    background-color: #978273;
+    font-family: 'Poppins', sans-serif;
+    height: 70vh;
+}
+.paso{
+    width: 25%;
+    height: 80%;
+    background-color: #e2ebf1;
+    border-radius: 25%;
+}
+
+.paso_{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    margin: 10px;
+    margin-left: 10px;
+    padding-left: 50px;
+}

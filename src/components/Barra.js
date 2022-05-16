@@ -1,5 +1,5 @@
 import './styles/barra.css'
-
+import { Link} from "react-router-dom";
 const Barra = () => {
     return (
         <header id="header">
@@ -8,7 +8,7 @@ const Barra = () => {
                 <div class="container__nav">
                     <nav id="nav">
                         <ul>
-                            <li><a href="#" class="select">MINT</a></li>
+                            <li><Link to="/Mint" class="select">Mint</Link></li>
                             <li><a href="#">ABOUT US</a></li>
                             <li><a href="#">HOW IT WORK</a></li>
                             <li><a href="#">CONTACT US</a></li>
