@@ -9,32 +9,22 @@ const Foot = () => {
                         <img src="./img/logo-magtimus.png" alt="" />
                     </div>
                     <div class="terms">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum reiciendis et quasi aut facere vitae vero. Inventore, minus ab voluptate modi repellat, pariatur tempora quisquam, debitis facilis explicabo voluptatem. A.
+                        Hagamos el cambio, el planeta es de todos, juntos haremos la diferencia
                     </div>
                 </div>
 
                 <div class="box__footer">
                     <h2>Soluciones</h2>
-                    <a href="#">App Desarrollo</a>
-                    <a href="#">App Marketing</a>
-                    <a href="#">IOS Desarrollo</a>
-                    <a href="#">Android Desarrollo</a>
+                    <a href="#">Coleccion</a>
+                    <a href="#">Reclutamienro</a>
+                    <a href="#">Proyecto con empresas</a>
                 </div>
-
-                <div class="box__footer">
-                    <h2>Compañia</h2>
-                    <a href="#">Acercda de</a>
-                    <a href="#">Trabajos</a>
-                    <a href="#">Procesos</a>
-                    <a href="#">Servicios</a>
-                </div>
-
                 <div class="box__footer">
                     <h2>Redes Sociales</h2>
                     <a href="#"><i class="fab fa-facebook-square"></i> Facebook</a>
                     <a href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
-                    <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
-                    <a href="#"><i class="fab fa-instagram-square"></i> Instagram</a>
+                    <a href="#"><i class="fab fa-linkedin"></i> Open Sea</a>
+                    <a href="#"><i class="fab fa-instagram-square"></i> Etherscan</a>
                 </div>
             </div>
         </footer>

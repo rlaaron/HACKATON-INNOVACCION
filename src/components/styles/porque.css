@@ -73,6 +73,7 @@
     height: 350px;
 }
 h3{
+    font-weight: bold;
     font-family: 'Poppins', sans-serif;
     margin-top: 50px;
     color: #FEBA0B;

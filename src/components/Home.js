@@ -2,6 +2,7 @@ import Barra from './Barra';
 import Foot from './Foot';
 import './styles/home.css'
 import nft from './img/ajolotelaunch.png'
+import { Link} from "react-router-dom";
 
 const Home = () => {
     return (
@@ -21,7 +22,7 @@ const Home = () => {
                             </p>
                             <br/>
                             <div className='links'>
-                                <a><button className='boton'>REGISTRARME</button></a>
+                                <li><Link to="/Formulario" class="boton">REGISTRARME</Link></li>
                                 <a href='https://rinkeby.etherscan.io/address/0xa3c3BB460fe327F6C25a12f4ECA1083DB4A5ab1D' target = '_blank' className='boton' rel="noreferrer">Etherscan</a>
                                 <a href='https://testnets.opensea.io/collection/salva-al-oceano' target = '_blank' className='boton' rel="noreferrer">OpenSea</a>
                             </div>

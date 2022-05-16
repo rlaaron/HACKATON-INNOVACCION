@@ -14,7 +14,7 @@ const AppRouter = () => {
             <Route path='/' element = {<App/>}/>
             <Route path='/Porque' element = {<Porque/>}/>
             <Route path='/Pasos' element = {<Como/>}/>
-            <Route path='/Mas' element = {<Formulario/>}/>
+            <Route path='/Formulario' element = {<Formulario/>}/>
             <Route path='/Mint' element = {<Mint accounts={accounts} setAccounts={setAccounts}/>}/>
         </Routes>
     </BrowserRouter>
